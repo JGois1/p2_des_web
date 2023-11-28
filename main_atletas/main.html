@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main_atletas</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="botafogo.png" type="image/x-icon">
+    <!--Fonts--> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Nova+Square&family=Saira&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Kanit&family=Nova+Square&family=Saira&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="title">
+            <img src="logo.png" alt="logo botafogo">
+            <h1>Atletas do Botafogo</h1>
+        </div>
+        <button onclick="sair()" id="sair"><a href="..//index.html">Sair</a></button>
+    </header>
+    <div id="divbotoes">
+        <button id="masculino" class="botoes" onclick="muda(1)" value="masculino">Masculino</button>
+        <button id="feminino" class="botoes" onclick="muda(2)" value="feminino">Feminino</button>
+        <button id="all" class="botoes" onclick="muda(3)"  value="all">Elenco Completo</button>
+    </div>
+    <script src="../codigo.js"></script>
+</body>
+
+</html>
